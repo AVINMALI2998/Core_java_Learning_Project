@@ -1,0 +1,43 @@
+HybridFramework/
+│
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   ├── base/
+│   │   │   │   └── BaseTest.java
+│   │   │   │
+│   │   │   ├── pages/
+│   │   │   │   ├── LoginPage.java
+│   │   │   │   └── HomePage.java
+│   │   │   │
+│   │   │   ├── utils/
+│   │   │   │   ├── ExcelUtil.java
+│   │   │   │   ├── ConfigReader.java
+│   │   │   │   ├── ScreenshotUtil.java
+│   │   │   │   └── WaitUtil.java
+│   │   │   │
+│   │   │   └── constants/
+│   │   │       └── FrameworkConstants.java
+│   │   │
+│   │   └── resources/
+│   │       ├── config.properties
+│   │       └── testdata.xlsx
+│   │
+│   ├── test/
+│   │   ├── java/
+│   │   │   ├── tests/
+│   │   │   │   ├── LoginTest.java
+│   │   │   │   └── HomeTest.java
+│   │   │   │
+│   │   │   └── listeners/
+│   │   │       └── TestListener.java
+│   │   │
+│   │   └── resources/
+│   │       └── testng.xml
+│
+├── reports/
+├── screenshots/
+├── logs/
+│
+├── pom.xml
+└── README.md
