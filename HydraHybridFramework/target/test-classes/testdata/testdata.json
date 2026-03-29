@@ -1,0 +1,21 @@
+{
+  "testUsers": [
+    {
+      "username": "testuser1@example.com",
+      "password": "TestPassword123",
+      "firstName": "John",
+      "lastName": "Doe"
+    },
+    {
+      "username": "testuser2@example.com",
+      "password": "TestPassword456",
+      "firstName": "Jane",
+      "lastName": "Smith"
+    }
+  ],
+  "application": {
+    "baseUrl": "https://www.google.com",
+    "timeout": 30,
+    "browser": "chrome"
+  }
+}

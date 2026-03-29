@@ -1,0 +1,158 @@
+2026-03-28 13:02:48.716 [TestNG-test=Google Search Tests-1] ERROR com.hydra.base.BaseTest - Test FAILED: testGooglePageTitle
+2026-03-28 13:02:48.717 [TestNG-test=Google Search Tests-1] ERROR com.hydra.base.BaseTest - Failure Message: null
+2026-03-28 13:02:48.800 [TestNG-test=Google Search Tests-1] ERROR com.hydra.utils.ScreenshotUtils - Failed to capture screenshot: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=146.0.7680.154)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6ab6ef8b3c1de60bb71c60afb52b3f3d, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.154, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\AVINMALI\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63849}, goog:processID: 5328, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63849/devtoo..., se:cdpVersion: 146.0.7680.154, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6ab6ef8b3c1de60bb71c60afb52b3f3d
+2026-03-28 13:03:03.061 [TestNG-test=Google Search Tests-1] ERROR com.hydra.base.BasePage - Element not visible: By.name: q
+2026-03-28 13:03:03.061 [TestNG-test=Google Search Tests-1] ERROR com.hydra.base.BasePage - Failed to type text into element: By.name: q
+2026-03-28 13:03:03.063 [TestNG-test=Google Search Tests-1] ERROR com.hydra.base.BasePage - Failed to search query: invalid session id
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0a4e4729faa24a85660740ee63f6a1fa, findElement {using=name, value=q}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.154, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\AVINMALI\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59526}, goog:processID: 1192, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59526/devtoo..., se:cdpVersion: 146.0.7680.154, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0a4e4729faa24a85660740ee63f6a1fa
+2026-03-28 13:03:03.065 [TestNG-test=Google Search Tests-1] ERROR com.hydra.base.BaseTest - TEST FAILED: testClearSearchBox - invalid session id
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0a4e4729faa24a85660740ee63f6a1fa, findElement {using=name, value=q}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.154, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\AVINMALI\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59526}, goog:processID: 1192, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59526/devtoo..., se:cdpVersion: 146.0.7680.154, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0a4e4729faa24a85660740ee63f6a1fa
+2026-03-28 13:03:03.068 [TestNG-test=Google Search Tests-1] ERROR com.hydra.base.BaseTest - Test FAILED: testClearSearchBox
+2026-03-28 13:03:03.068 [TestNG-test=Google Search Tests-1] ERROR com.hydra.base.BaseTest - Failure Message: invalid session id
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0a4e4729faa24a85660740ee63f6a1fa, findElement {using=name, value=q}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.154, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\AVINMALI\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59526}, goog:processID: 1192, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59526/devtoo..., se:cdpVersion: 146.0.7680.154, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0a4e4729faa24a85660740ee63f6a1fa
+2026-03-28 13:03:03.072 [TestNG-test=Google Search Tests-1] ERROR com.hydra.utils.ScreenshotUtils - Failed to capture screenshot: invalid session id
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0a4e4729faa24a85660740ee63f6a1fa, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.154, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\AVINMALI\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59526}, goog:processID: 1192, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59526/devtoo..., se:cdpVersion: 146.0.7680.154, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0a4e4729faa24a85660740ee63f6a1fa
+2026-03-28 13:03:20.067 [TestNG-test=Login Page Tests-1] ERROR com.hydra.base.BaseTest - Test FAILED: testLoginPageDisplay
+2026-03-28 13:03:20.068 [TestNG-test=Login Page Tests-1] ERROR com.hydra.base.BaseTest - Failure Message: Login page should be displayed expected [true] but found [false]
+2026-03-28 13:03:40.731 [TestNG-test=Login Page Tests-1] ERROR com.hydra.base.BasePage - Element not visible: By.id: username
+2026-03-28 13:03:40.732 [TestNG-test=Login Page Tests-1] ERROR com.hydra.base.BasePage - Failed to type text into element: By.id: username
+2026-03-28 13:03:40.733 [TestNG-test=Login Page Tests-1] ERROR com.hydra.base.BaseTest - TEST FAILED: testSuccessfulLogin - invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=146.0.7680.154)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [25c099ca59be17c4db41069b11183df1, findElement {using=id, value=username}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.154, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\AVINMALI\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52640}, goog:processID: 26836, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52640/devtoo..., se:cdpVersion: 146.0.7680.154, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 25c099ca59be17c4db41069b11183df1
+2026-03-28 13:03:40.740 [TestNG-test=Login Page Tests-1] ERROR com.hydra.base.BaseTest - Test FAILED: testSuccessfulLogin
+2026-03-28 13:03:40.740 [TestNG-test=Login Page Tests-1] ERROR com.hydra.base.BaseTest - Failure Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=146.0.7680.154)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [25c099ca59be17c4db41069b11183df1, findElement {using=id, value=username}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.154, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\AVINMALI\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52640}, goog:processID: 26836, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52640/devtoo..., se:cdpVersion: 146.0.7680.154, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 25c099ca59be17c4db41069b11183df1
+2026-03-28 13:03:41.061 [TestNG-test=Login Page Tests-1] ERROR com.hydra.utils.ScreenshotUtils - Failed to capture screenshot: invalid session id
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [25c099ca59be17c4db41069b11183df1, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.154, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\AVINMALI\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52640}, goog:processID: 26836, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52640/devtoo..., se:cdpVersion: 146.0.7680.154, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 25c099ca59be17c4db41069b11183df1
+2026-03-28 13:03:53.341 [TestNG-test=Login Page Tests-1] ERROR com.hydra.base.BasePage - Element not visible: By.id: username
+2026-03-28 13:03:53.342 [TestNG-test=Login Page Tests-1] ERROR com.hydra.base.BasePage - Failed to type text into element: By.id: username
+2026-03-28 13:03:53.343 [TestNG-test=Login Page Tests-1] ERROR com.hydra.base.BaseTest - TEST FAILED: testLoginWithInvalidCredentials - invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=146.0.7680.154)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8abd1907945578c97086e4ca95978427, findElement {using=id, value=username}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.154, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\AVINMALI\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50527}, goog:processID: 19564, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50527/devtoo..., se:cdpVersion: 146.0.7680.154, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8abd1907945578c97086e4ca95978427
+2026-03-28 13:03:53.347 [TestNG-test=Login Page Tests-1] ERROR com.hydra.base.BaseTest - Test FAILED: testLoginWithInvalidCredentials
+2026-03-28 13:03:53.348 [TestNG-test=Login Page Tests-1] ERROR com.hydra.base.BaseTest - Failure Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=146.0.7680.154)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8abd1907945578c97086e4ca95978427, findElement {using=id, value=username}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.154, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\AVINMALI\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50527}, goog:processID: 19564, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50527/devtoo..., se:cdpVersion: 146.0.7680.154, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8abd1907945578c97086e4ca95978427
+2026-03-28 13:03:53.726 [TestNG-test=Login Page Tests-1] ERROR com.hydra.utils.ScreenshotUtils - Failed to capture screenshot: invalid session id
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8abd1907945578c97086e4ca95978427, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.154, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\AVINMALI\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50527}, goog:processID: 19564, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50527/devtoo..., se:cdpVersion: 146.0.7680.154, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8abd1907945578c97086e4ca95978427
+2026-03-28 13:04:02.936 [TestNG-test=Login Page Tests-1] ERROR com.hydra.base.BasePage - Element not clickable: By.id: remember_me
+2026-03-28 13:04:02.936 [TestNG-test=Login Page Tests-1] ERROR com.hydra.base.BasePage - Failed to click on element: By.id: remember_me
+2026-03-28 13:04:02.936 [TestNG-test=Login Page Tests-1] ERROR com.hydra.base.BaseTest - TEST FAILED: testRememberMeCheckbox - invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=146.0.7680.154)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b124ffcf83af2198cedceeb70891178c, findElement {using=id, value=remember_me}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.154, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\AVINMALI\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55244}, goog:processID: 19068, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55244/devtoo..., se:cdpVersion: 146.0.7680.154, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b124ffcf83af2198cedceeb70891178c
+2026-03-28 13:04:02.938 [TestNG-test=Login Page Tests-1] ERROR com.hydra.base.BaseTest - Test FAILED: testRememberMeCheckbox
+2026-03-28 13:04:02.940 [TestNG-test=Login Page Tests-1] ERROR com.hydra.base.BaseTest - Failure Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=146.0.7680.154)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b124ffcf83af2198cedceeb70891178c, findElement {using=id, value=remember_me}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.154, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\AVINMALI\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55244}, goog:processID: 19068, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55244/devtoo..., se:cdpVersion: 146.0.7680.154, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b124ffcf83af2198cedceeb70891178c
+2026-03-28 13:04:03.201 [TestNG-test=Login Page Tests-1] ERROR com.hydra.utils.ScreenshotUtils - Failed to capture screenshot: invalid session id
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b124ffcf83af2198cedceeb70891178c, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.154, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\AVINMALI\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55244}, goog:processID: 19068, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55244/devtoo..., se:cdpVersion: 146.0.7680.154, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b124ffcf83af2198cedceeb70891178c
+2026-03-28 13:04:10.830 [TestNG-test=Login Page Tests-1] ERROR com.hydra.base.BasePage - Element not clickable: By.linkText: Forgot Password
+2026-03-28 13:04:10.830 [TestNG-test=Login Page Tests-1] ERROR com.hydra.base.BasePage - Failed to click on element: By.linkText: Forgot Password
+2026-03-28 13:04:10.830 [TestNG-test=Login Page Tests-1] ERROR com.hydra.base.BaseTest - TEST FAILED: testForgotPasswordLink - invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=146.0.7680.154)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0b9bde1138bbcaf6bccdb1fd33634c76, findElement {using=link text, value=Forgot Password}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.154, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\AVINMALI\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55102}, goog:processID: 8368, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55102/devtoo..., se:cdpVersion: 146.0.7680.154, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b9bde1138bbcaf6bccdb1fd33634c76
+2026-03-28 13:04:10.834 [TestNG-test=Login Page Tests-1] ERROR com.hydra.base.BaseTest - Test FAILED: testForgotPasswordLink
+2026-03-28 13:04:10.834 [TestNG-test=Login Page Tests-1] ERROR com.hydra.base.BaseTest - Failure Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=146.0.7680.154)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0b9bde1138bbcaf6bccdb1fd33634c76, findElement {using=link text, value=Forgot Password}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.154, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\AVINMALI\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55102}, goog:processID: 8368, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55102/devtoo..., se:cdpVersion: 146.0.7680.154, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b9bde1138bbcaf6bccdb1fd33634c76
+2026-03-28 13:04:11.068 [TestNG-test=Login Page Tests-1] ERROR com.hydra.utils.ScreenshotUtils - Failed to capture screenshot: invalid session id
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0b9bde1138bbcaf6bccdb1fd33634c76, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.154, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\AVINMALI\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55102}, goog:processID: 8368, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55102/devtoo..., se:cdpVersion: 146.0.7680.154, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b9bde1138bbcaf6bccdb1fd33634c76
+2026-03-28 13:04:57.978 [TestNG-test=Smoke Tests-1] ERROR com.hydra.base.BaseTest - Test FAILED: testLoginPageDisplay
+2026-03-28 13:04:57.979 [TestNG-test=Smoke Tests-1] ERROR com.hydra.base.BaseTest - Failure Message: Login page should be displayed expected [true] but found [false]

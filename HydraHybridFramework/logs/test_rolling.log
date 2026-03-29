@@ -1,0 +1,407 @@
+2026-03-28 13:02:09.534 [TestNG-test=Google Search Tests-1] INFO  com.hydra.config.ConfigManager - Configuration file loaded successfully from: src/test/resources/properties/config.properties
+2026-03-28 13:02:09.536 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.BaseTest - ====================================
+2026-03-28 13:02:09.536 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.BaseTest - Starting test setup with browser: chrome
+2026-03-28 13:02:09.536 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.BaseTest - ====================================
+2026-03-28 13:02:17.607 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.WebDriverFactory - Chrome driver initialized successfully
+2026-03-28 13:02:17.655 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.BaseTest - WebDriver initialized and configured successfully
+2026-03-28 13:02:17.656 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.BaseTest - Implicit wait: 10 seconds
+2026-03-28 13:02:17.657 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.BaseTest - Page load timeout: 30 seconds
+2026-03-28 13:02:17.662 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.BaseTest - ====================================
+2026-03-28 13:02:17.663 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.BaseTest - Starting test setup with browser: chrome
+2026-03-28 13:02:17.664 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.BaseTest - ====================================
+2026-03-28 13:02:20.417 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.WebDriverFactory - Chrome driver initialized successfully
+2026-03-28 13:02:20.492 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.BaseTest - WebDriver initialized and configured successfully
+2026-03-28 13:02:20.503 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.BaseTest - TEST STARTED: testGoogleSearch
+2026-03-28 13:02:20.859 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.BasePage - Navigated to URL: https://www.google.com
+2026-03-28 13:02:20.870 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.BaseTest - Navigated to Google
+2026-03-28 13:02:31.901 [TestNG-test=Google Search Tests-1] WARN  com.hydra.base.BasePage - Element not displayed: By.xpath: //button[contains(text(), 'Accept all')]
+2026-03-28 13:02:32.072 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.BasePage - Element displayed check: By.id: hplogo - true
+2026-03-28 13:02:32.077 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.BaseTest - Google logo is displayed
+2026-03-28 13:02:32.077 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.BasePage - Waiting for element to be visible: By.name: q
+2026-03-28 13:02:32.886 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.BasePage - Typed text 'Selenium WebDriver' into element: By.name: q
+2026-03-28 13:02:32.887 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.BasePage - Waiting for element to be clickable: By.name: btnK
+2026-03-28 13:02:36.037 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.BasePage - Clicked on element: By.name: btnK
+2026-03-28 13:02:36.039 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.BasePage - Searched for: Selenium WebDriver
+2026-03-28 13:02:36.040 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.BaseTest - Search performed for: Selenium WebDriver
+2026-03-28 13:02:38.976 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.BasePage - Current URL: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fsafe%3Dactive%26q%3DSelenium%2BWebDriver%26sca_esv%3D8382a0438d800e4e%26source%3Dhp%26ei%3DBITHafXTJfSMseMP8M2DsA4%26iflsig%3DAFdpzrgAAAAAaceSFFBYrx-QLNjVw_eLP9hBSl34uf15%26ved%3D0ahUKEwj15b3xicKTAxV0RmwGHfDmAOYQ4dUDCCg%26oq%3DSelenium%2BWebDriver%26gs_lp%3DEgdnd3Mtd2l6IhJTZWxlbml1bSBXZWJEcml2ZXIyCBAAGIAEGLEDMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAESOYXUABYZHAAeACQAQCYAbsGoAHlGKoBAzYtNLgBDMgBAPgBAZgCBKACqhmYAwCSBwU1LTEuM6AH4BayBwU1LTEuM7gHqhnCBwcyLTIuMS4xyAczgAgA%26sclient%3Dgws-wiz%26sei%3DE4THaeOSOu65seMP49fYsQs%26safe%3Dactive&q=EgSnZ7xRGJSIns4GIjAizuq7U04JmfCGfS1uRSq0nG_n9ZyGZz5QdNca7UNFcvyPtL-s9Gt0pz_NdRZZwF0yAVJaAUM
+2026-03-28 13:02:38.977 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.BaseTest - Search results page displayed successfully
+2026-03-28 13:02:38.978 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.BaseTest - TEST PASSED: testGoogleSearch
+2026-03-28 13:02:38.987 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.BaseTest - ====================================
+2026-03-28 13:02:38.988 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.BaseTest - Test Execution Finished
+2026-03-28 13:02:38.989 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.BaseTest - Test Status: 1
+2026-03-28 13:02:38.989 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.BaseTest - Test PASSED: testGoogleSearch
+2026-03-28 13:02:38.990 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.BaseTest - ====================================
+2026-03-28 13:02:40.839 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.WebDriverFactory - WebDriver closed successfully
+2026-03-28 13:02:40.840 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.BaseTest - WebDriver closed successfully
+2026-03-28 13:02:40.841 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.BaseTest - ====================================
+2026-03-28 13:02:40.841 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.BaseTest - Starting test setup with browser: chrome
+2026-03-28 13:02:40.843 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.BaseTest - ====================================
+2026-03-28 13:02:43.630 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.WebDriverFactory - Chrome driver initialized successfully
+2026-03-28 13:02:43.660 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.BaseTest - WebDriver initialized and configured successfully
+2026-03-28 13:02:43.660 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.BaseTest - Implicit wait: 10 seconds
+2026-03-28 13:02:43.661 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.BaseTest - Page load timeout: 30 seconds
+2026-03-28 13:02:43.662 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.BaseTest - ====================================
+2026-03-28 13:02:43.665 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.BaseTest - Starting test setup with browser: chrome
+2026-03-28 13:02:43.667 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.BaseTest - ====================================
+2026-03-28 13:02:46.494 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.WebDriverFactory - Chrome driver initialized successfully
+2026-03-28 13:02:46.527 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.BaseTest - WebDriver initialized and configured successfully
+2026-03-28 13:02:46.531 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.BaseTest - TEST STARTED: testGooglePageTitle
+2026-03-28 13:02:48.521 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.BasePage - Navigated to URL: https://www.google.com
+2026-03-28 13:02:48.714 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.BaseTest - ====================================
+2026-03-28 13:02:48.715 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.BaseTest - Test Execution Finished
+2026-03-28 13:02:48.715 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.BaseTest - Test Status: 2
+2026-03-28 13:02:48.716 [TestNG-test=Google Search Tests-1] ERROR com.hydra.base.BaseTest - Test FAILED: testGooglePageTitle
+2026-03-28 13:02:48.717 [TestNG-test=Google Search Tests-1] ERROR com.hydra.base.BaseTest - Failure Message: null
+2026-03-28 13:02:48.800 [TestNG-test=Google Search Tests-1] ERROR com.hydra.utils.ScreenshotUtils - Failed to capture screenshot: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=146.0.7680.154)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6ab6ef8b3c1de60bb71c60afb52b3f3d, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.154, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\AVINMALI\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63849}, goog:processID: 5328, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63849/devtoo..., se:cdpVersion: 146.0.7680.154, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6ab6ef8b3c1de60bb71c60afb52b3f3d
+2026-03-28 13:02:48.808 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.BaseTest - Screenshot taken: null
+2026-03-28 13:02:48.809 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.BaseTest - ====================================
+2026-03-28 13:02:49.455 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.WebDriverFactory - WebDriver closed successfully
+2026-03-28 13:02:49.456 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.BaseTest - WebDriver closed successfully
+2026-03-28 13:02:49.458 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.BaseTest - ====================================
+2026-03-28 13:02:49.458 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.BaseTest - Starting test setup with browser: chrome
+2026-03-28 13:02:49.458 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.BaseTest - ====================================
+2026-03-28 13:02:52.156 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.WebDriverFactory - Chrome driver initialized successfully
+2026-03-28 13:02:52.171 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.BaseTest - WebDriver initialized and configured successfully
+2026-03-28 13:02:52.171 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.BaseTest - Implicit wait: 10 seconds
+2026-03-28 13:02:52.172 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.BaseTest - Page load timeout: 30 seconds
+2026-03-28 13:02:52.173 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.BaseTest - ====================================
+2026-03-28 13:02:52.174 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.BaseTest - Starting test setup with browser: chrome
+2026-03-28 13:02:52.174 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.BaseTest - ====================================
+2026-03-28 13:02:55.224 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.WebDriverFactory - Chrome driver initialized successfully
+2026-03-28 13:02:55.244 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.BaseTest - WebDriver initialized and configured successfully
+2026-03-28 13:02:55.249 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.BaseTest - TEST STARTED: testClearSearchBox
+2026-03-28 13:02:55.641 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.BasePage - Navigated to URL: https://www.google.com
+2026-03-28 13:03:02.742 [TestNG-test=Google Search Tests-1] WARN  com.hydra.base.BasePage - Element not displayed: By.xpath: //button[contains(text(), 'Accept all')]
+2026-03-28 13:03:02.742 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.BasePage - Waiting for element to be visible: By.name: q
+2026-03-28 13:03:03.061 [TestNG-test=Google Search Tests-1] ERROR com.hydra.base.BasePage - Element not visible: By.name: q
+2026-03-28 13:03:03.061 [TestNG-test=Google Search Tests-1] ERROR com.hydra.base.BasePage - Failed to type text into element: By.name: q
+2026-03-28 13:03:03.063 [TestNG-test=Google Search Tests-1] ERROR com.hydra.base.BasePage - Failed to search query: invalid session id
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0a4e4729faa24a85660740ee63f6a1fa, findElement {using=name, value=q}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.154, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\AVINMALI\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59526}, goog:processID: 1192, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59526/devtoo..., se:cdpVersion: 146.0.7680.154, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0a4e4729faa24a85660740ee63f6a1fa
+2026-03-28 13:03:03.065 [TestNG-test=Google Search Tests-1] ERROR com.hydra.base.BaseTest - TEST FAILED: testClearSearchBox - invalid session id
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0a4e4729faa24a85660740ee63f6a1fa, findElement {using=name, value=q}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.154, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\AVINMALI\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59526}, goog:processID: 1192, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59526/devtoo..., se:cdpVersion: 146.0.7680.154, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0a4e4729faa24a85660740ee63f6a1fa
+2026-03-28 13:03:03.066 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.BaseTest - ====================================
+2026-03-28 13:03:03.066 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.BaseTest - Test Execution Finished
+2026-03-28 13:03:03.068 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.BaseTest - Test Status: 2
+2026-03-28 13:03:03.068 [TestNG-test=Google Search Tests-1] ERROR com.hydra.base.BaseTest - Test FAILED: testClearSearchBox
+2026-03-28 13:03:03.068 [TestNG-test=Google Search Tests-1] ERROR com.hydra.base.BaseTest - Failure Message: invalid session id
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0a4e4729faa24a85660740ee63f6a1fa, findElement {using=name, value=q}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.154, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\AVINMALI\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59526}, goog:processID: 1192, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59526/devtoo..., se:cdpVersion: 146.0.7680.154, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0a4e4729faa24a85660740ee63f6a1fa
+2026-03-28 13:03:03.072 [TestNG-test=Google Search Tests-1] ERROR com.hydra.utils.ScreenshotUtils - Failed to capture screenshot: invalid session id
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0a4e4729faa24a85660740ee63f6a1fa, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.154, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\AVINMALI\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59526}, goog:processID: 1192, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59526/devtoo..., se:cdpVersion: 146.0.7680.154, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0a4e4729faa24a85660740ee63f6a1fa
+2026-03-28 13:03:03.072 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.BaseTest - Screenshot taken: null
+2026-03-28 13:03:03.074 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.BaseTest - ====================================
+2026-03-28 13:03:03.102 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.WebDriverFactory - WebDriver closed successfully
+2026-03-28 13:03:03.102 [TestNG-test=Google Search Tests-1] INFO  com.hydra.base.BaseTest - WebDriver closed successfully
+2026-03-28 13:03:03.286 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - ====================================
+2026-03-28 13:03:03.286 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - Starting test setup with browser: chrome
+2026-03-28 13:03:03.286 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - ====================================
+2026-03-28 13:03:05.754 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.WebDriverFactory - Chrome driver initialized successfully
+2026-03-28 13:03:05.768 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - WebDriver initialized and configured successfully
+2026-03-28 13:03:05.768 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - Implicit wait: 10 seconds
+2026-03-28 13:03:05.768 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - Page load timeout: 30 seconds
+2026-03-28 13:03:05.770 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - ====================================
+2026-03-28 13:03:05.770 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - Starting test setup with browser: chrome
+2026-03-28 13:03:05.772 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - ====================================
+2026-03-28 13:03:08.655 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.WebDriverFactory - Chrome driver initialized successfully
+2026-03-28 13:03:08.726 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - WebDriver initialized and configured successfully
+2026-03-28 13:03:08.730 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - TEST STARTED: testLoginPageDisplay
+2026-03-28 13:03:09.860 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BasePage - Navigated to URL: https://example.com/login
+2026-03-28 13:03:09.861 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - Navigated to login page
+2026-03-28 13:03:20.051 [TestNG-test=Login Page Tests-1] WARN  com.hydra.base.BasePage - Element not displayed: By.id: username
+2026-03-28 13:03:20.066 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - ====================================
+2026-03-28 13:03:20.067 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - Test Execution Finished
+2026-03-28 13:03:20.067 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - Test Status: 2
+2026-03-28 13:03:20.067 [TestNG-test=Login Page Tests-1] ERROR com.hydra.base.BaseTest - Test FAILED: testLoginPageDisplay
+2026-03-28 13:03:20.068 [TestNG-test=Login Page Tests-1] ERROR com.hydra.base.BaseTest - Failure Message: Login page should be displayed expected [true] but found [false]
+2026-03-28 13:03:20.456 [TestNG-test=Login Page Tests-1] INFO  com.hydra.utils.ScreenshotUtils - Screenshot captured successfully: screenshots/\testLoginPageDisplay_1774683200069_28-03-2026_13-03-20.png
+2026-03-28 13:03:20.458 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - Screenshot taken: screenshots/\testLoginPageDisplay_1774683200069_28-03-2026_13-03-20.png
+2026-03-28 13:03:20.458 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - ====================================
+2026-03-28 13:03:24.624 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.WebDriverFactory - WebDriver closed successfully
+2026-03-28 13:03:24.625 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - WebDriver closed successfully
+2026-03-28 13:03:24.626 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - ====================================
+2026-03-28 13:03:24.627 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - Starting test setup with browser: chrome
+2026-03-28 13:03:24.627 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - ====================================
+2026-03-28 13:03:27.611 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.WebDriverFactory - Chrome driver initialized successfully
+2026-03-28 13:03:27.645 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - WebDriver initialized and configured successfully
+2026-03-28 13:03:27.646 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - Implicit wait: 10 seconds
+2026-03-28 13:03:27.646 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - Page load timeout: 30 seconds
+2026-03-28 13:03:27.650 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - ====================================
+2026-03-28 13:03:27.652 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - Starting test setup with browser: chrome
+2026-03-28 13:03:27.652 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - ====================================
+2026-03-28 13:03:31.005 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.WebDriverFactory - Chrome driver initialized successfully
+2026-03-28 13:03:31.075 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - WebDriver initialized and configured successfully
+2026-03-28 13:03:31.087 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - TEST STARTED: testSuccessfulLogin
+2026-03-28 13:03:32.215 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BasePage - Navigated to URL: https://example.com/login
+2026-03-28 13:03:32.215 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BasePage - Waiting for element to be visible: By.id: username
+2026-03-28 13:03:40.731 [TestNG-test=Login Page Tests-1] ERROR com.hydra.base.BasePage - Element not visible: By.id: username
+2026-03-28 13:03:40.732 [TestNG-test=Login Page Tests-1] ERROR com.hydra.base.BasePage - Failed to type text into element: By.id: username
+2026-03-28 13:03:40.733 [TestNG-test=Login Page Tests-1] ERROR com.hydra.base.BaseTest - TEST FAILED: testSuccessfulLogin - invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=146.0.7680.154)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [25c099ca59be17c4db41069b11183df1, findElement {using=id, value=username}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.154, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\AVINMALI\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52640}, goog:processID: 26836, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52640/devtoo..., se:cdpVersion: 146.0.7680.154, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 25c099ca59be17c4db41069b11183df1
+2026-03-28 13:03:40.739 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - ====================================
+2026-03-28 13:03:40.739 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - Test Execution Finished
+2026-03-28 13:03:40.739 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - Test Status: 2
+2026-03-28 13:03:40.740 [TestNG-test=Login Page Tests-1] ERROR com.hydra.base.BaseTest - Test FAILED: testSuccessfulLogin
+2026-03-28 13:03:40.740 [TestNG-test=Login Page Tests-1] ERROR com.hydra.base.BaseTest - Failure Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=146.0.7680.154)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [25c099ca59be17c4db41069b11183df1, findElement {using=id, value=username}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.154, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\AVINMALI\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52640}, goog:processID: 26836, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52640/devtoo..., se:cdpVersion: 146.0.7680.154, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 25c099ca59be17c4db41069b11183df1
+2026-03-28 13:03:41.061 [TestNG-test=Login Page Tests-1] ERROR com.hydra.utils.ScreenshotUtils - Failed to capture screenshot: invalid session id
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [25c099ca59be17c4db41069b11183df1, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.154, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\AVINMALI\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52640}, goog:processID: 26836, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52640/devtoo..., se:cdpVersion: 146.0.7680.154, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 25c099ca59be17c4db41069b11183df1
+2026-03-28 13:03:41.061 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - Screenshot taken: null
+2026-03-28 13:03:41.062 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - ====================================
+2026-03-28 13:03:41.092 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.WebDriverFactory - WebDriver closed successfully
+2026-03-28 13:03:41.094 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - WebDriver closed successfully
+2026-03-28 13:03:41.095 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - ====================================
+2026-03-28 13:03:41.095 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - Starting test setup with browser: chrome
+2026-03-28 13:03:41.096 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - ====================================
+2026-03-28 13:03:44.536 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.WebDriverFactory - Chrome driver initialized successfully
+2026-03-28 13:03:44.596 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - WebDriver initialized and configured successfully
+2026-03-28 13:03:44.596 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - Implicit wait: 10 seconds
+2026-03-28 13:03:44.598 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - Page load timeout: 30 seconds
+2026-03-28 13:03:44.598 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - ====================================
+2026-03-28 13:03:44.600 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - Starting test setup with browser: chrome
+2026-03-28 13:03:44.600 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - ====================================
+2026-03-28 13:03:47.953 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.WebDriverFactory - Chrome driver initialized successfully
+2026-03-28 13:03:48.002 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - WebDriver initialized and configured successfully
+2026-03-28 13:03:48.004 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - TEST STARTED: testLoginWithInvalidCredentials
+2026-03-28 13:03:49.229 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BasePage - Navigated to URL: https://example.com/login
+2026-03-28 13:03:49.230 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BasePage - Waiting for element to be visible: By.id: username
+2026-03-28 13:03:53.341 [TestNG-test=Login Page Tests-1] ERROR com.hydra.base.BasePage - Element not visible: By.id: username
+2026-03-28 13:03:53.342 [TestNG-test=Login Page Tests-1] ERROR com.hydra.base.BasePage - Failed to type text into element: By.id: username
+2026-03-28 13:03:53.343 [TestNG-test=Login Page Tests-1] ERROR com.hydra.base.BaseTest - TEST FAILED: testLoginWithInvalidCredentials - invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=146.0.7680.154)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8abd1907945578c97086e4ca95978427, findElement {using=id, value=username}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.154, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\AVINMALI\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50527}, goog:processID: 19564, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50527/devtoo..., se:cdpVersion: 146.0.7680.154, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8abd1907945578c97086e4ca95978427
+2026-03-28 13:03:53.346 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - ====================================
+2026-03-28 13:03:53.346 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - Test Execution Finished
+2026-03-28 13:03:53.347 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - Test Status: 2
+2026-03-28 13:03:53.347 [TestNG-test=Login Page Tests-1] ERROR com.hydra.base.BaseTest - Test FAILED: testLoginWithInvalidCredentials
+2026-03-28 13:03:53.348 [TestNG-test=Login Page Tests-1] ERROR com.hydra.base.BaseTest - Failure Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=146.0.7680.154)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8abd1907945578c97086e4ca95978427, findElement {using=id, value=username}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.154, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\AVINMALI\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50527}, goog:processID: 19564, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50527/devtoo..., se:cdpVersion: 146.0.7680.154, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8abd1907945578c97086e4ca95978427
+2026-03-28 13:03:53.726 [TestNG-test=Login Page Tests-1] ERROR com.hydra.utils.ScreenshotUtils - Failed to capture screenshot: invalid session id
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8abd1907945578c97086e4ca95978427, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.154, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\AVINMALI\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50527}, goog:processID: 19564, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50527/devtoo..., se:cdpVersion: 146.0.7680.154, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8abd1907945578c97086e4ca95978427
+2026-03-28 13:03:53.727 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - Screenshot taken: null
+2026-03-28 13:03:53.727 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - ====================================
+2026-03-28 13:03:53.812 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.WebDriverFactory - WebDriver closed successfully
+2026-03-28 13:03:53.813 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - WebDriver closed successfully
+2026-03-28 13:03:53.818 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - ====================================
+2026-03-28 13:03:53.820 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - Starting test setup with browser: chrome
+2026-03-28 13:03:53.821 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - ====================================
+2026-03-28 13:03:56.838 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.WebDriverFactory - Chrome driver initialized successfully
+2026-03-28 13:03:56.849 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - WebDriver initialized and configured successfully
+2026-03-28 13:03:56.850 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - Implicit wait: 10 seconds
+2026-03-28 13:03:56.850 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - Page load timeout: 30 seconds
+2026-03-28 13:03:56.851 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - ====================================
+2026-03-28 13:03:56.851 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - Starting test setup with browser: chrome
+2026-03-28 13:03:56.851 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - ====================================
+2026-03-28 13:03:59.957 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.WebDriverFactory - Chrome driver initialized successfully
+2026-03-28 13:03:59.973 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - WebDriver initialized and configured successfully
+2026-03-28 13:03:59.975 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - TEST STARTED: testRememberMeCheckbox
+2026-03-28 13:04:01.045 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BasePage - Navigated to URL: https://example.com/login
+2026-03-28 13:04:01.046 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BasePage - Waiting for element to be clickable: By.id: remember_me
+2026-03-28 13:04:02.936 [TestNG-test=Login Page Tests-1] ERROR com.hydra.base.BasePage - Element not clickable: By.id: remember_me
+2026-03-28 13:04:02.936 [TestNG-test=Login Page Tests-1] ERROR com.hydra.base.BasePage - Failed to click on element: By.id: remember_me
+2026-03-28 13:04:02.936 [TestNG-test=Login Page Tests-1] ERROR com.hydra.base.BaseTest - TEST FAILED: testRememberMeCheckbox - invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=146.0.7680.154)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b124ffcf83af2198cedceeb70891178c, findElement {using=id, value=remember_me}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.154, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\AVINMALI\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55244}, goog:processID: 19068, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55244/devtoo..., se:cdpVersion: 146.0.7680.154, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b124ffcf83af2198cedceeb70891178c
+2026-03-28 13:04:02.938 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - ====================================
+2026-03-28 13:04:02.938 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - Test Execution Finished
+2026-03-28 13:04:02.938 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - Test Status: 2
+2026-03-28 13:04:02.938 [TestNG-test=Login Page Tests-1] ERROR com.hydra.base.BaseTest - Test FAILED: testRememberMeCheckbox
+2026-03-28 13:04:02.940 [TestNG-test=Login Page Tests-1] ERROR com.hydra.base.BaseTest - Failure Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=146.0.7680.154)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b124ffcf83af2198cedceeb70891178c, findElement {using=id, value=remember_me}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.154, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\AVINMALI\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55244}, goog:processID: 19068, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55244/devtoo..., se:cdpVersion: 146.0.7680.154, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b124ffcf83af2198cedceeb70891178c
+2026-03-28 13:04:03.201 [TestNG-test=Login Page Tests-1] ERROR com.hydra.utils.ScreenshotUtils - Failed to capture screenshot: invalid session id
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b124ffcf83af2198cedceeb70891178c, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.154, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\AVINMALI\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55244}, goog:processID: 19068, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55244/devtoo..., se:cdpVersion: 146.0.7680.154, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b124ffcf83af2198cedceeb70891178c
+2026-03-28 13:04:03.201 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - Screenshot taken: null
+2026-03-28 13:04:03.201 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - ====================================
+2026-03-28 13:04:03.231 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.WebDriverFactory - WebDriver closed successfully
+2026-03-28 13:04:03.233 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - WebDriver closed successfully
+2026-03-28 13:04:03.233 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - ====================================
+2026-03-28 13:04:03.235 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - Starting test setup with browser: chrome
+2026-03-28 13:04:03.235 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - ====================================
+2026-03-28 13:04:05.826 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.WebDriverFactory - Chrome driver initialized successfully
+2026-03-28 13:04:05.849 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - WebDriver initialized and configured successfully
+2026-03-28 13:04:05.850 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - Implicit wait: 10 seconds
+2026-03-28 13:04:05.850 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - Page load timeout: 30 seconds
+2026-03-28 13:04:05.861 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - ====================================
+2026-03-28 13:04:05.863 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - Starting test setup with browser: chrome
+2026-03-28 13:04:05.869 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - ====================================
+2026-03-28 13:04:08.970 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.WebDriverFactory - Chrome driver initialized successfully
+2026-03-28 13:04:09.032 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - WebDriver initialized and configured successfully
+2026-03-28 13:04:09.032 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - TEST STARTED: testForgotPasswordLink
+2026-03-28 13:04:10.247 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BasePage - Navigated to URL: https://example.com/login
+2026-03-28 13:04:10.248 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BasePage - Waiting for element to be clickable: By.linkText: Forgot Password
+2026-03-28 13:04:10.830 [TestNG-test=Login Page Tests-1] ERROR com.hydra.base.BasePage - Element not clickable: By.linkText: Forgot Password
+2026-03-28 13:04:10.830 [TestNG-test=Login Page Tests-1] ERROR com.hydra.base.BasePage - Failed to click on element: By.linkText: Forgot Password
+2026-03-28 13:04:10.830 [TestNG-test=Login Page Tests-1] ERROR com.hydra.base.BaseTest - TEST FAILED: testForgotPasswordLink - invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=146.0.7680.154)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0b9bde1138bbcaf6bccdb1fd33634c76, findElement {using=link text, value=Forgot Password}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.154, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\AVINMALI\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55102}, goog:processID: 8368, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55102/devtoo..., se:cdpVersion: 146.0.7680.154, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b9bde1138bbcaf6bccdb1fd33634c76
+2026-03-28 13:04:10.832 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - ====================================
+2026-03-28 13:04:10.834 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - Test Execution Finished
+2026-03-28 13:04:10.834 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - Test Status: 2
+2026-03-28 13:04:10.834 [TestNG-test=Login Page Tests-1] ERROR com.hydra.base.BaseTest - Test FAILED: testForgotPasswordLink
+2026-03-28 13:04:10.834 [TestNG-test=Login Page Tests-1] ERROR com.hydra.base.BaseTest - Failure Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=146.0.7680.154)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0b9bde1138bbcaf6bccdb1fd33634c76, findElement {using=link text, value=Forgot Password}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.154, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\AVINMALI\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55102}, goog:processID: 8368, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55102/devtoo..., se:cdpVersion: 146.0.7680.154, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b9bde1138bbcaf6bccdb1fd33634c76
+2026-03-28 13:04:11.068 [TestNG-test=Login Page Tests-1] ERROR com.hydra.utils.ScreenshotUtils - Failed to capture screenshot: invalid session id
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0b9bde1138bbcaf6bccdb1fd33634c76, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.154, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\AVINMALI\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55102}, goog:processID: 8368, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55102/devtoo..., se:cdpVersion: 146.0.7680.154, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b9bde1138bbcaf6bccdb1fd33634c76
+2026-03-28 13:04:11.068 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - Screenshot taken: null
+2026-03-28 13:04:11.068 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - ====================================
+2026-03-28 13:04:11.097 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.WebDriverFactory - WebDriver closed successfully
+2026-03-28 13:04:11.097 [TestNG-test=Login Page Tests-1] INFO  com.hydra.base.BaseTest - WebDriver closed successfully
+2026-03-28 13:04:11.127 [TestNG-test=Smoke Tests-1] INFO  com.hydra.base.BaseTest - ====================================
+2026-03-28 13:04:11.127 [TestNG-test=Smoke Tests-1] INFO  com.hydra.base.BaseTest - Starting test setup with browser: chrome
+2026-03-28 13:04:11.127 [TestNG-test=Smoke Tests-1] INFO  com.hydra.base.BaseTest - ====================================
+2026-03-28 13:04:14.103 [TestNG-test=Smoke Tests-1] INFO  com.hydra.base.WebDriverFactory - Chrome driver initialized successfully
+2026-03-28 13:04:14.146 [TestNG-test=Smoke Tests-1] INFO  com.hydra.base.BaseTest - WebDriver initialized and configured successfully
+2026-03-28 13:04:14.148 [TestNG-test=Smoke Tests-1] INFO  com.hydra.base.BaseTest - Implicit wait: 10 seconds
+2026-03-28 13:04:14.148 [TestNG-test=Smoke Tests-1] INFO  com.hydra.base.BaseTest - Page load timeout: 30 seconds
+2026-03-28 13:04:14.150 [TestNG-test=Smoke Tests-1] INFO  com.hydra.base.BaseTest - ====================================
+2026-03-28 13:04:14.150 [TestNG-test=Smoke Tests-1] INFO  com.hydra.base.BaseTest - Starting test setup with browser: chrome
+2026-03-28 13:04:14.150 [TestNG-test=Smoke Tests-1] INFO  com.hydra.base.BaseTest - ====================================
+2026-03-28 13:04:17.247 [TestNG-test=Smoke Tests-1] INFO  com.hydra.base.WebDriverFactory - Chrome driver initialized successfully
+2026-03-28 13:04:17.278 [TestNG-test=Smoke Tests-1] INFO  com.hydra.base.BaseTest - WebDriver initialized and configured successfully
+2026-03-28 13:04:17.278 [TestNG-test=Smoke Tests-1] INFO  com.hydra.base.BaseTest - TEST STARTED: testGoogleSearch
+2026-03-28 13:04:18.916 [TestNG-test=Smoke Tests-1] INFO  com.hydra.base.BasePage - Navigated to URL: https://www.google.com
+2026-03-28 13:04:18.916 [TestNG-test=Smoke Tests-1] INFO  com.hydra.base.BaseTest - Navigated to Google
+2026-03-28 13:04:29.085 [TestNG-test=Smoke Tests-1] WARN  com.hydra.base.BasePage - Element not displayed: By.xpath: //button[contains(text(), 'Accept all')]
+2026-03-28 13:04:29.341 [TestNG-test=Smoke Tests-1] INFO  com.hydra.base.BasePage - Element displayed check: By.id: hplogo - true
+2026-03-28 13:04:29.342 [TestNG-test=Smoke Tests-1] INFO  com.hydra.base.BaseTest - Google logo is displayed
+2026-03-28 13:04:29.342 [TestNG-test=Smoke Tests-1] INFO  com.hydra.base.BasePage - Waiting for element to be visible: By.name: q
+2026-03-28 13:04:32.205 [TestNG-test=Smoke Tests-1] INFO  com.hydra.base.BasePage - Typed text 'Selenium WebDriver' into element: By.name: q
+2026-03-28 13:04:32.207 [TestNG-test=Smoke Tests-1] INFO  com.hydra.base.BasePage - Waiting for element to be clickable: By.name: btnK
+2026-03-28 13:04:34.524 [TestNG-test=Smoke Tests-1] INFO  com.hydra.base.BasePage - Clicked on element: By.name: btnK
+2026-03-28 13:04:34.525 [TestNG-test=Smoke Tests-1] INFO  com.hydra.base.BasePage - Searched for: Selenium WebDriver
+2026-03-28 13:04:34.525 [TestNG-test=Smoke Tests-1] INFO  com.hydra.base.BaseTest - Search performed for: Selenium WebDriver
+2026-03-28 13:04:36.859 [TestNG-test=Smoke Tests-1] INFO  com.hydra.base.BasePage - Current URL: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fsafe%3Dactive%26q%3DSelenium%2BWebDriver%26sca_esv%3D8382a0438d800e4e%26source%3Dhp%26ei%3DeYTHaeu7JLbf2roP2cq1mQE%26iflsig%3DAFdpzrgAAAAAaceSiQN9sFiA6XtFAE1Dbwlxta9xXJ_F%26ved%3D0ahUKEwir3KGpisKTAxW2r1YBHVllLRMQ4dUDCCg%26oq%3DSelenium%2BWebDriver%26gs_lp%3DEgdnd3Mtd2l6IhJTZWxlbml1bSBXZWJEcml2ZXIyCBAAGIAEGLEDMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAESMwUUABYlwlwAHgAkAEAmAHQAaABgxSqAQYwLjE2LjG4AQzIAQD4AQGYAhGgAswVwgILEAAYgAQYsQMYgwHCAgsQLhiABBjRAxjHAcICDhAAGIAEGLEDGIMBGIoFwgIFEC4YgATCAg4QLhiABBixAxjRAxjHAcICCxAuGIAEGLEDGIMBwgIREC4YgAQYsQMY0QMYgwEYxwHCAggQLhiABBixA5gDAJIHBjAuMTYuMaAH-2qyBwYwLjE2LjG4B8wVwgcIMi0xMC42LjHIB58BgAgA%26sclient%3Dgws-wiz%26sei%3DiYTHaZmKJr7l4-EPy76X0AI%26safe%3Dactive&q=EgSnZ7xRGIqJns4GIjDQAGGwtGrGlXCt6a31q9DlL8eI1lnSu25l8rZnyoKjRP_kUy031G-I6-_r-qp_zU4yAVJaAUM
+2026-03-28 13:04:36.859 [TestNG-test=Smoke Tests-1] INFO  com.hydra.base.BaseTest - Search results page displayed successfully
+2026-03-28 13:04:36.859 [TestNG-test=Smoke Tests-1] INFO  com.hydra.base.BaseTest - TEST PASSED: testGoogleSearch
+2026-03-28 13:04:36.861 [TestNG-test=Smoke Tests-1] INFO  com.hydra.base.BaseTest - ====================================
+2026-03-28 13:04:36.875 [TestNG-test=Smoke Tests-1] INFO  com.hydra.base.BaseTest - Test Execution Finished
+2026-03-28 13:04:36.875 [TestNG-test=Smoke Tests-1] INFO  com.hydra.base.BaseTest - Test Status: 1
+2026-03-28 13:04:36.877 [TestNG-test=Smoke Tests-1] INFO  com.hydra.base.BaseTest - Test PASSED: testGoogleSearch
+2026-03-28 13:04:36.877 [TestNG-test=Smoke Tests-1] INFO  com.hydra.base.BaseTest - ====================================
+2026-03-28 13:04:40.820 [TestNG-test=Smoke Tests-1] INFO  com.hydra.base.WebDriverFactory - WebDriver closed successfully
+2026-03-28 13:04:40.820 [TestNG-test=Smoke Tests-1] INFO  com.hydra.base.BaseTest - WebDriver closed successfully
+2026-03-28 13:04:40.823 [TestNG-test=Smoke Tests-1] INFO  com.hydra.base.BaseTest - ====================================
+2026-03-28 13:04:40.823 [TestNG-test=Smoke Tests-1] INFO  com.hydra.base.BaseTest - Starting test setup with browser: chrome
+2026-03-28 13:04:40.823 [TestNG-test=Smoke Tests-1] INFO  com.hydra.base.BaseTest - ====================================
+2026-03-28 13:04:43.196 [TestNG-test=Smoke Tests-1] INFO  com.hydra.base.WebDriverFactory - Chrome driver initialized successfully
+2026-03-28 13:04:43.251 [TestNG-test=Smoke Tests-1] INFO  com.hydra.base.BaseTest - WebDriver initialized and configured successfully
+2026-03-28 13:04:43.252 [TestNG-test=Smoke Tests-1] INFO  com.hydra.base.BaseTest - Implicit wait: 10 seconds
+2026-03-28 13:04:43.252 [TestNG-test=Smoke Tests-1] INFO  com.hydra.base.BaseTest - Page load timeout: 30 seconds
+2026-03-28 13:04:43.260 [TestNG-test=Smoke Tests-1] INFO  com.hydra.base.BaseTest - ====================================
+2026-03-28 13:04:43.260 [TestNG-test=Smoke Tests-1] INFO  com.hydra.base.BaseTest - Starting test setup with browser: chrome
+2026-03-28 13:04:43.260 [TestNG-test=Smoke Tests-1] INFO  com.hydra.base.BaseTest - ====================================
+2026-03-28 13:04:46.688 [TestNG-test=Smoke Tests-1] INFO  com.hydra.base.WebDriverFactory - Chrome driver initialized successfully
+2026-03-28 13:04:46.705 [TestNG-test=Smoke Tests-1] INFO  com.hydra.base.BaseTest - WebDriver initialized and configured successfully
+2026-03-28 13:04:46.707 [TestNG-test=Smoke Tests-1] INFO  com.hydra.base.BaseTest - TEST STARTED: testLoginPageDisplay
+2026-03-28 13:04:47.760 [TestNG-test=Smoke Tests-1] INFO  com.hydra.base.BasePage - Navigated to URL: https://example.com/login
+2026-03-28 13:04:47.761 [TestNG-test=Smoke Tests-1] INFO  com.hydra.base.BaseTest - Navigated to login page
+2026-03-28 13:04:57.973 [TestNG-test=Smoke Tests-1] WARN  com.hydra.base.BasePage - Element not displayed: By.id: username
+2026-03-28 13:04:57.977 [TestNG-test=Smoke Tests-1] INFO  com.hydra.base.BaseTest - ====================================
+2026-03-28 13:04:57.978 [TestNG-test=Smoke Tests-1] INFO  com.hydra.base.BaseTest - Test Execution Finished
+2026-03-28 13:04:57.978 [TestNG-test=Smoke Tests-1] INFO  com.hydra.base.BaseTest - Test Status: 2
+2026-03-28 13:04:57.978 [TestNG-test=Smoke Tests-1] ERROR com.hydra.base.BaseTest - Test FAILED: testLoginPageDisplay
+2026-03-28 13:04:57.979 [TestNG-test=Smoke Tests-1] ERROR com.hydra.base.BaseTest - Failure Message: Login page should be displayed expected [true] but found [false]
+2026-03-28 13:04:58.298 [TestNG-test=Smoke Tests-1] INFO  com.hydra.utils.ScreenshotUtils - Screenshot captured successfully: screenshots/\testLoginPageDisplay_1774683297979_28-03-2026_13-04-57.png
+2026-03-28 13:04:58.298 [TestNG-test=Smoke Tests-1] INFO  com.hydra.base.BaseTest - Screenshot taken: screenshots/\testLoginPageDisplay_1774683297979_28-03-2026_13-04-57.png
+2026-03-28 13:04:58.298 [TestNG-test=Smoke Tests-1] INFO  com.hydra.base.BaseTest - ====================================
+2026-03-28 13:05:00.788 [TestNG-test=Smoke Tests-1] INFO  com.hydra.base.WebDriverFactory - WebDriver closed successfully
+2026-03-28 13:05:00.789 [TestNG-test=Smoke Tests-1] INFO  com.hydra.base.BaseTest - WebDriver closed successfully

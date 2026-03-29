@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="methods" name="Failed suite [Hydra Hybrid Framework Test Suite]" verbose="0">
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="1" parallel="methods" name="Google Search Tests(failed)" verbose="0">
+    <classes>
+      <class name="com.hydra.tests.GoogleSearchTest">
+        <methods>
+          <include name="testClearSearchBox"/>
+          <include name="tearDown"/>
+          <include name="testGooglePageTitle"/>
+          <include name="setUpWithoutParameter"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.hydra.tests.GoogleSearchTest -->
+    </classes>
+  </test> <!-- Google Search Tests(failed) -->
+  <test thread-count="1" parallel="methods" name="Login Page Tests(failed)" verbose="0">
+    <classes>
+      <class name="com.hydra.tests.LoginPageTest">
+        <methods>
+          <include name="testLoginWithInvalidCredentials"/>
+          <include name="testRememberMeCheckbox"/>
+          <include name="testForgotPasswordLink"/>
+          <include name="tearDown"/>
+          <include name="testLoginPageDisplay"/>
+          <include name="setUpWithoutParameter"/>
+          <include name="setUp"/>
+          <include name="testSuccessfulLogin"/>
+        </methods>
+      </class> <!-- com.hydra.tests.LoginPageTest -->
+    </classes>
+  </test> <!-- Login Page Tests(failed) -->
+  <test thread-count="1" parallel="methods" name="Smoke Tests(failed)" verbose="0">
+    <classes>
+      <class name="com.hydra.tests.LoginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testLoginPageDisplay"/>
+          <include name="setUpWithoutParameter"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.hydra.tests.LoginPageTest -->
+    </classes>
+  </test> <!-- Smoke Tests(failed) -->
+</suite> <!-- Failed suite [Hydra Hybrid Framework Test Suite] -->

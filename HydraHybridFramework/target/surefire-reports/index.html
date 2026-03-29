@@ -1,0 +1,1871 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 8 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Hydra_Hybrid_Framework_Test_Suite" class="navigator-link">
+              <span class="suite-name border-failed">Hydra Hybrid Framework Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Hydra_Hybrid_Framework_Test_Suite" class="navigator-link ">
+                    <span>C:\UI_AUTOMATION\HydraHybridFramework\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Hydra_Hybrid_Framework_Test_Suite" class="navigator-link ">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Hydra_Hybrid_Framework_Test_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Hydra_Hybrid_Framework_Test_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Hydra_Hybrid_Framework_Test_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Hydra_Hybrid_Framework_Test_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Hydra_Hybrid_Framework_Test_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods, 8 failed,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Hydra_Hybrid_Framework_Test_Suite" class="hide-methods failed suite-Hydra_Hybrid_Framework_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-Hydra_Hybrid_Framework_Test_Suite -->
+                      <a href="#" panel-name="suite-Hydra_Hybrid_Framework_Test_Suite" class="show-methods failed suite-Hydra_Hybrid_Framework_Test_Suite"> (show)</a> <!-- show-methods failed suite-Hydra_Hybrid_Framework_Test_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Hydra_Hybrid_Framework_Test_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Hydra_Hybrid_Framework_Test_Suite" title="com.hydra.tests.GoogleSearchTest" class="method navigator-link" hash-for-method="testClearSearchBox">testClearSearchBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Hydra_Hybrid_Framework_Test_Suite" title="com.hydra.tests.LoginPageTest" class="method navigator-link" hash-for-method="testForgotPasswordLink">testForgotPasswordLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Hydra_Hybrid_Framework_Test_Suite" title="com.hydra.tests.GoogleSearchTest" class="method navigator-link" hash-for-method="testGooglePageTitle">testGooglePageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Hydra_Hybrid_Framework_Test_Suite" title="com.hydra.tests.LoginPageTest" class="method navigator-link" hash-for-method="testLoginPageDisplay">testLoginPageDisplay</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Hydra_Hybrid_Framework_Test_Suite" title="com.hydra.tests.LoginPageTest" class="method navigator-link" hash-for-method="testLoginPageDisplay">testLoginPageDisplay</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Hydra_Hybrid_Framework_Test_Suite" title="com.hydra.tests.LoginPageTest" class="method navigator-link" hash-for-method="testLoginWithInvalidCredentials">testLoginWithInvalidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Hydra_Hybrid_Framework_Test_Suite" title="com.hydra.tests.LoginPageTest" class="method navigator-link" hash-for-method="testRememberMeCheckbox">testRememberMeCheckbox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Hydra_Hybrid_Framework_Test_Suite" title="com.hydra.tests.LoginPageTest" class="method navigator-link" hash-for-method="testSuccessfulLogin">testSuccessfulLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Hydra_Hybrid_Framework_Test_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Hydra_Hybrid_Framework_Test_Suite" class="hide-methods passed suite-Hydra_Hybrid_Framework_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-Hydra_Hybrid_Framework_Test_Suite -->
+                      <a href="#" panel-name="suite-Hydra_Hybrid_Framework_Test_Suite" class="show-methods passed suite-Hydra_Hybrid_Framework_Test_Suite"> (show)</a> <!-- show-methods passed suite-Hydra_Hybrid_Framework_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Hydra_Hybrid_Framework_Test_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Hydra_Hybrid_Framework_Test_Suite" title="com.hydra.tests.GoogleSearchTest" class="method navigator-link" hash-for-method="testGoogleSearch">testGoogleSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Hydra_Hybrid_Framework_Test_Suite" title="com.hydra.tests.GoogleSearchTest" class="method navigator-link" hash-for-method="testGoogleSearch">testGoogleSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Hydra_Hybrid_Framework_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Hydra_Hybrid_Framework_Test_Suite" class="panel Hydra_Hybrid_Framework_Test_Suite">
+          <div class="suite-Hydra_Hybrid_Framework_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.hydra.tests.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testForgotPasswordLink">
+                  </a> <!-- testForgotPasswordLink -->
+                  <span class="method-name">testForgotPasswordLink</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=146.0.7680.154)
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0b9bde1138bbcaf6bccdb1fd33634c76, findElement {using=link text, value=Forgot Password}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.154, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\AVINMALI\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55102}, goog:processID: 8368, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55102/devtoo..., se:cdpVersion: 146.0.7680.154, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b9bde1138bbcaf6bccdb1fd33634c76
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:204)
+	at com.hydra.base.BasePage.waitForElementToBeClickable(BasePage.java:53)
+	at com.hydra.base.BasePage.click(BasePage.java:93)
+	at com.hydra.pages.LoginPage.clickForgotPasswordLink(LoginPage.java:92)
+	at com.hydra.tests.LoginPageTest.testForgotPasswordLink(LoginPageTest.java:156)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(User should be able to click forgot password link)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginPageDisplay">
+                  </a> <!-- testLoginPageDisplay -->
+                  <span class="method-name">testLoginPageDisplay</span>
+                  <div class="stack-trace">java.lang.AssertionError: Login page should be displayed expected [true] but found [false]
+	at com.hydra.tests.LoginPageTest.testLoginPageDisplay(LoginPageTest.java:28)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(User should see login page when navigating to login URL)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginPageDisplay">
+                  </a> <!-- testLoginPageDisplay -->
+                  <span class="method-name">testLoginPageDisplay</span>
+                  <div class="stack-trace">java.lang.AssertionError: Login page should be displayed expected [true] but found [false]
+	at com.hydra.tests.LoginPageTest.testLoginPageDisplay(LoginPageTest.java:28)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(User should see login page when navigating to login URL)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginWithInvalidCredentials">
+                  </a> <!-- testLoginWithInvalidCredentials -->
+                  <span class="method-name">testLoginWithInvalidCredentials</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=146.0.7680.154)
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8abd1907945578c97086e4ca95978427, findElement {using=id, value=username}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.154, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\AVINMALI\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50527}, goog:processID: 19564, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50527/devtoo..., se:cdpVersion: 146.0.7680.154, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8abd1907945578c97086e4ca95978427
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:204)
+	at com.hydra.base.BasePage.waitForElementToBeVisible(BasePage.java:40)
+	at com.hydra.base.BasePage.typeText(BasePage.java:154)
+	at com.hydra.pages.LoginPage.enterUsername(LoginPage.java:29)
+	at com.hydra.pages.LoginPage.login(LoginPage.java:53)
+	at com.hydra.tests.LoginPageTest.testLoginWithInvalidCredentials(LoginPageTest.java:88)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(User should see error message for invalid credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRememberMeCheckbox">
+                  </a> <!-- testRememberMeCheckbox -->
+                  <span class="method-name">testRememberMeCheckbox</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=146.0.7680.154)
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b124ffcf83af2198cedceeb70891178c, findElement {using=id, value=remember_me}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.154, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\AVINMALI\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55244}, goog:processID: 19068, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55244/devtoo..., se:cdpVersion: 146.0.7680.154, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b124ffcf83af2198cedceeb70891178c
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:204)
+	at com.hydra.base.BasePage.waitForElementToBeClickable(BasePage.java:53)
+	at com.hydra.base.BasePage.click(BasePage.java:93)
+	at com.hydra.pages.LoginPage.clickRememberMe(LoginPage.java:77)
+	at com.hydra.tests.LoginPageTest.testRememberMeCheckbox(LoginPageTest.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(User should be able to select remember me checkbox)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSuccessfulLogin">
+                  </a> <!-- testSuccessfulLogin -->
+                  <span class="method-name">testSuccessfulLogin</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=146.0.7680.154)
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [25c099ca59be17c4db41069b11183df1, findElement {using=id, value=username}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.154, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\AVINMALI\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52640}, goog:processID: 26836, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52640/devtoo..., se:cdpVersion: 146.0.7680.154, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 25c099ca59be17c4db41069b11183df1
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:204)
+	at com.hydra.base.BasePage.waitForElementToBeVisible(BasePage.java:40)
+	at com.hydra.base.BasePage.typeText(BasePage.java:154)
+	at com.hydra.pages.LoginPage.enterUsername(LoginPage.java:29)
+	at com.hydra.pages.LoginPage.login(LoginPage.java:53)
+	at com.hydra.tests.LoginPageTest.testSuccessfulLogin(LoginPageTest.java:53)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(User should be able to login with valid credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Hydra_Hybrid_Framework_Test_Suite-class-failed -->
+          <div class="suite-Hydra_Hybrid_Framework_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.hydra.tests.GoogleSearchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClearSearchBox">
+                  </a> <!-- testClearSearchBox -->
+                  <span class="method-name">testClearSearchBox</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0a4e4729faa24a85660740ee63f6a1fa, findElement {using=name, value=q}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.154, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\AVINMALI\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59526}, goog:processID: 1192, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59526/devtoo..., se:cdpVersion: 146.0.7680.154, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0a4e4729faa24a85660740ee63f6a1fa
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:204)
+	at com.hydra.base.BasePage.waitForElementToBeVisible(BasePage.java:40)
+	at com.hydra.base.BasePage.typeText(BasePage.java:154)
+	at com.hydra.pages.GoogleHomePage.searchQuery(GoogleHomePage.java:27)
+	at com.hydra.tests.GoogleSearchTest.testClearSearchBox(GoogleSearchTest.java:102)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(User should be able to clear search box)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGooglePageTitle">
+                  </a> <!-- testGooglePageTitle -->
+                  <span class="method-name">testGooglePageTitle</span>
+                  <div class="stack-trace">java.lang.StackOverflowError
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+	at com.hydra.pages.GoogleHomePage.getPageTitle(GoogleHomePage.java:75)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Google page title should be Google)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Hydra_Hybrid_Framework_Test_Suite-class-failed -->
+          <div class="suite-Hydra_Hybrid_Framework_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.hydra.tests.GoogleSearchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGoogleSearch">
+                  </a> <!-- testGoogleSearch -->
+                  <span class="method-name">testGoogleSearch</span>
+                  <em>
+(User should be able to search on Google)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGoogleSearch">
+                  </a> <!-- testGoogleSearch -->
+                  <span class="method-name">testGoogleSearch</span>
+                  <em>
+(User should be able to search on Google)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Hydra_Hybrid_Framework_Test_Suite-class-passed -->
+        </div> <!-- panel Hydra_Hybrid_Framework_Test_Suite -->
+        <div panel-name="test-xml-Hydra_Hybrid_Framework_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\UI_AUTOMATION\HydraHybridFramework\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; parallel=&quot;methods&quot; name=&quot;Hydra Hybrid Framework Test Suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+  &lt;test thread-count=&quot;1&quot; parallel=&quot;methods&quot; name=&quot;Google Search Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.hydra.tests.GoogleSearchTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;testGoogleSearch&quot;/&gt;
+          &lt;include name=&quot;testGooglePageTitle&quot;/&gt;
+          &lt;include name=&quot;testClearSearchBox&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.hydra.tests.GoogleSearchTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Google Search Tests --&gt;
+  &lt;test thread-count=&quot;1&quot; parallel=&quot;methods&quot; name=&quot;Login Page Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.hydra.tests.LoginPageTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;testLoginPageDisplay&quot;/&gt;
+          &lt;include name=&quot;testSuccessfulLogin&quot;/&gt;
+          &lt;include name=&quot;testLoginWithInvalidCredentials&quot;/&gt;
+          &lt;include name=&quot;testRememberMeCheckbox&quot;/&gt;
+          &lt;include name=&quot;testForgotPasswordLink&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.hydra.tests.LoginPageTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login Page Tests --&gt;
+  &lt;test thread-count=&quot;1&quot; parallel=&quot;methods&quot; name=&quot;Smoke Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.hydra.tests.GoogleSearchTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;testGoogleSearch&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.hydra.tests.GoogleSearchTest --&gt;
+      &lt;class name=&quot;com.hydra.tests.LoginPageTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;testLoginPageDisplay&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.hydra.tests.LoginPageTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Smoke Tests --&gt;
+&lt;/suite&gt; &lt;!-- Hydra Hybrid Framework Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Hydra_Hybrid_Framework_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Hydra Hybrid Framework Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Google Search Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Login Page Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Smoke Tests (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Hydra_Hybrid_Framework_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Hydra Hybrid Framework Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Hydra_Hybrid_Framework_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Hydra Hybrid Framework Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Hydra_Hybrid_Framework_Test_Suite');
+function tableData_Hydra_Hybrid_Framework_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testGoogleSearch')
+data.setCell(0, 2, 'com.hydra.tests.GoogleSearchTest')
+data.setCell(0, 3, 19583);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testGoogleSearch')
+data.setCell(1, 2, 'com.hydra.tests.GoogleSearchTest')
+data.setCell(1, 3, 18485);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testLoginPageDisplay')
+data.setCell(2, 2, 'com.hydra.tests.LoginPageTest')
+data.setCell(2, 3, 11334);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testLoginPageDisplay')
+data.setCell(3, 2, 'com.hydra.tests.LoginPageTest')
+data.setCell(3, 3, 11267);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testSuccessfulLogin')
+data.setCell(4, 2, 'com.hydra.tests.LoginPageTest')
+data.setCell(4, 3, 9658);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testClearSearchBox')
+data.setCell(5, 2, 'com.hydra.tests.GoogleSearchTest')
+data.setCell(5, 3, 7820);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testLoginWithInvalidCredentials')
+data.setCell(6, 2, 'com.hydra.tests.LoginPageTest')
+data.setCell(6, 3, 5342);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testRememberMeCheckbox')
+data.setCell(7, 2, 'com.hydra.tests.LoginPageTest')
+data.setCell(7, 3, 2962);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testGooglePageTitle')
+data.setCell(8, 2, 'com.hydra.tests.GoogleSearchTest')
+data.setCell(8, 3, 2075);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testForgotPasswordLink')
+data.setCell(9, 2, 'com.hydra.tests.LoginPageTest')
+data.setCell(9, 3, 1800);
+window.suiteTableData['Hydra_Hybrid_Framework_Test_Suite']= { tableData: data, tableDiv: 'times-div-Hydra_Hybrid_Framework_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Hydra_Hybrid_Framework_Test_Suite">
+              </div> <!-- times-div-Hydra_Hybrid_Framework_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Hydra_Hybrid_Framework_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Hydra Hybrid Framework Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Hydra_Hybrid_Framework_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">6 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.hydra.tests.LoginPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testForgotPasswordLink</span>
+                <br/>
+                <span class="ignored-method-name">testSuccessfulLogin</span>
+                <br/>
+                <span class="ignored-method-name">testRememberMeCheckbox</span>
+                <br/>
+                <span class="ignored-method-name">testLoginWithInvalidCredentials</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.hydra.tests.GoogleSearchTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testClearSearchBox</span>
+                <br/>
+                <span class="ignored-method-name">testGooglePageTitle</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Hydra_Hybrid_Framework_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.hydra.tests.GoogleSearchTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpWithoutParameter</span>
+                <span class="method-start">8144 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGoogleSearch</span>
+                <span class="method-start">10977 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testGoogleSearch status=SUCCESS method=GoogleSearchTest.testGoogleSearch()[pri:1, i...)</span>
+                <span class="method-start">29468 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">31325 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpWithoutParameter</span>
+                <span class="method-start">34145 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testGooglePageTitle</span>
+                <span class="method-start">37012 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testGooglePageTitle status=FAILURE method=GoogleSearchTest.testGooglePageTitle()[pr...)</span>
+                <span class="method-start">39198 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">39941 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpWithoutParameter</span>
+                <span class="method-start">42656 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testClearSearchBox</span>
+                <span class="method-start">45729 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testClearSearchBox status=FAILURE method=GoogleSearchTest.testClearSearchBox()[pri:...)</span>
+                <span class="method-start">53550 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.hydra.tests.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">53768 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpWithoutParameter</span>
+                <span class="method-start">56254 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testLoginPageDisplay</span>
+                <span class="method-start">59213 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testLoginPageDisplay status=FAILURE method=LoginPageTest.testLoginPageDisplay()[pri...)</span>
+                <span class="method-start">70549 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">75110 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpWithoutParameter</span>
+                <span class="method-start">78132 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testSuccessfulLogin</span>
+                <span class="method-start">81560 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testSuccessfulLogin status=FAILURE method=LoginPageTest.testSuccessfulLogin()[pri:2...)</span>
+                <span class="method-start">91220 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">91578 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpWithoutParameter</span>
+                <span class="method-start">95082 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testLoginWithInvalidCredentials</span>
+                <span class="method-start">98486 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testLoginWithInvalidCredentials status=FAILURE method=LoginPageTest.testLoginWithIn...)</span>
+                <span class="method-start">103829 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">104301 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpWithoutParameter</span>
+                <span class="method-start">107334 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testRememberMeCheckbox</span>
+                <span class="method-start">110458 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testRememberMeCheckbox status=FAILURE method=LoginPageTest.testRememberMeCheckbox()...)</span>
+                <span class="method-start">113422 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">113717 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpWithoutParameter</span>
+                <span class="method-start">116336 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testForgotPasswordLink</span>
+                <span class="method-start">119516 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testForgotPasswordLink status=FAILURE method=LoginPageTest.testForgotPasswordLink()...)</span>
+                <span class="method-start">121316 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.hydra.tests.GoogleSearchTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">121611 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpWithoutParameter</span>
+                <span class="method-start">124634 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGoogleSearch</span>
+                <span class="method-start">127762 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testGoogleSearch status=SUCCESS method=GoogleSearchTest.testGoogleSearch()[pri:1, i...)</span>
+                <span class="method-start">147345 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.hydra.tests.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">151304 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpWithoutParameter</span>
+                <span class="method-start">153736 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testLoginPageDisplay</span>
+                <span class="method-start">157190 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testLoginPageDisplay status=FAILURE method=LoginPageTest.testLoginPageDisplay()[pri...)</span>
+                <span class="method-start">168460 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
